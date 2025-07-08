@@ -1,0 +1,20 @@
+source 'https://rubygems.org'
+
+ruby '3.4.2'
+
+gem 'rack'
+gem 'sinatra'
+gem 'jwt'
+gem 'securerandom'
+gem 'json'
+gem 'base64'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'webmock'
+end
+
+group :development do
+  gem 'rerun'
+end

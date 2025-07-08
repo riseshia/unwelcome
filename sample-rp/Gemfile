@@ -1,0 +1,19 @@
+source 'https://rubygems.org'
+
+ruby '3.4.2'
+
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'rack'
+gem 'json'
+
+group :development, :test do
+  gem 'rspec'
+  gem 'rack-test'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+end
+
+group :development do
+  gem 'rerun'
+end
